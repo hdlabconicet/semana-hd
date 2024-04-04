@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        red_hd: "#D3331E",
-        green_hd: "#00B3B7",
-        yellow_hd: "#FFB000",
-        gray_hd: "#444444"
+        red_hd: "#e73f36",
+        green_hd: "#71c7d4",
+        yellow_hd: "#fbb91d",
+        gray_hd: "#3c3c3a"
       }
     },
     fontFamily: {

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html {
-    @apply font-mulish;
+    @apply font-mulish text-gray_hd font-light;
 }
