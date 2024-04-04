@@ -14,9 +14,9 @@ const AppRoutes = () => {
 function App() {
   return (
     <BrowserRouter>
-      <nav>
+      {/*<nav>
         <NavLink to="/">Home</NavLink>
-      </nav>
+  </nav>*/}
       <AppRoutes />
     </BrowserRouter>
   );

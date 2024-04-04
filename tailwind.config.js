@@ -10,6 +10,9 @@ export default {
         gray_hd: "#444444"
       }
     },
+    fontFamily: {
+      mulish: ['Mulish', 'sans-serif'],
+    },
   },
   plugins: [],
 }
