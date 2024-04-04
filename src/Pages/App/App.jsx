@@ -16,20 +16,20 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-        <a href="https://aahd.net.ar/">
+        <a href="https://aahd.net.ar/" target="_blank" rel="noopener noreferrer">
           <img
             src="images/aahd.png"
             alt="Asociación Argentina de Humanidades Digitales"
             width={60}
           />
         </a>
-        <a href="https://rchd.com.co/">
+        <a href="https://rchd.com.co/" target="_blank" rel="noopener noreferrer">
           <img src="images/rchd.png" alt="Red Colombiana de Humanidades Digitales" width={78} />
         </a>
-        <a href="http://humanidadesdigitales.net/">
+        <a href="http://humanidadesdigitales.net/" target="_blank" rel="noopener noreferrer">
           <img src="images/rhd.png" alt="Red de Humanidades Digitales" width={68} />
         </a>
-        <a href="https://cuaieed.unam.mx/"><img src="images/cuaieed.svg" alt="Coordinación de Universidad Abierta y Educación Digital" width={60} /></a>
+        <a href="https://cuaieed.unam.mx/" target="_blank" rel="noopener noreferrer"><img src="images/cuaieed.svg" alt="Coordinación de Universidad Abierta y Educación Digital" width={60} /></a>
         <NavLink to="/proposal" className="proposal">Propón un evento</NavLink>
         <ColorBar />
       </nav>
