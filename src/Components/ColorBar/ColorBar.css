@@ -1,0 +1,13 @@
+.colorbar {
+  @apply flex flex-row items-center justify-center;
+}
+.colorbar > div {
+  @apply w-1/3 bg-red_hd;
+  height: 2px;
+}
+.colorbar > div:nth-child(2) {
+  @apply bg-green_hd;
+}
+.colorbar > div:nth-child(3) {
+  @apply bg-yellow_hd;
+}

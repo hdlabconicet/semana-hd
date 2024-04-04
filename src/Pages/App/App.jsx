@@ -1,5 +1,6 @@
 import { useRoutes, BrowserRouter } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import ColorBar from "../../Components/ColorBar/ColorBar";
 import Home from "../Home/Home";
 import NotFound from "../NotFound/NotFound";
 import "./App.css";
@@ -30,11 +31,7 @@ function App() {
         </a>
         <a href="https://cuaieed.unam.mx/"><img src="images/cuaieed.svg" alt="Coordinación de Universidad Abierta y Educación Digital" width={60} /></a>
         <NavLink to="/proposal" className="proposal">Propón un evento</NavLink>
-        <div className="colorbar">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        <ColorBar />
       </nav>
       <AppRoutes />
     </BrowserRouter>

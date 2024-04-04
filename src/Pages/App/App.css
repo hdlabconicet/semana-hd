@@ -10,16 +10,7 @@ nav > a:first-child {
 nav > a.proposal {
     @apply transition ease-in-out delay-150 bg-green_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded sm:fixed sm:right-0 xl:right-4 sm:top-5;
 }
-nav > .colorbar {
-    @apply flex flex-row items-center justify-center;
-}
-nav > .colorbar > div {
-    @apply w-1/3 bg-red_hd;
-    height: 2px;
-}
-nav > .colorbar > div:nth-child(2) {
-    @apply bg-green_hd;
-}
-nav > .colorbar > div:nth-child(3) {
-    @apply bg-yellow_hd;
+
+section {
+    @apply min-h-screen flex flex-row justify-center items-center;
 }
