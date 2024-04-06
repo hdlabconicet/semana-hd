@@ -1,4 +1,4 @@
-import './ColorBar.css';
+import "./ColorBar.css";
 
 const ColorBar = () => {
   return (

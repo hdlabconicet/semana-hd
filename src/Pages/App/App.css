@@ -12,5 +12,5 @@ nav > a.proposal {
 }
 
 section {
-    @apply min-h-screen flex flex-row justify-center items-center;
+    @apply min-h-screen flex flex-row justify-center items-center py-10;
 }
