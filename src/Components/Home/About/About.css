@@ -1,0 +1,19 @@
+.about-section {
+    background: url(../images/about-section.jpg) center no-repeat;
+    background-size: cover;
+}
+.question {
+    @apply py-8 text-gray-100 font-normal text-lg leading-relaxed;
+}
+.question h3 {
+    @apply text-3xl text-gray-100 font-semibold my-4 pb-1 border-b-2 border-red-600;
+}
+.question .telegram-link {
+    @apply hover:text-gray-400 underline;
+}
+.question .telegram-link:hover > img {
+    @apply grayscale;
+}
+.question .proposal {
+    @apply transition ease-in-out delay-150 bg-red_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded;
+}
