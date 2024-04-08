@@ -34,6 +34,21 @@ function App() {
         <ColorBar />
       </nav>
       <AppRoutes />
+      <footer>
+        <div className="container mx-auto py-2  text-white text-sm flex flex-row">
+          <div className="w-1/6">
+            <p>Desarrollado por:</p>
+            <p><img src="images/bunam_mooc.svg" alt="B@UNAM & MOOC" width={100} /></p>
+          </div>
+          <div className="w-3/4">
+            <h6 className="text-xl">Aviso</h6>
+            <p>Coordinación de Universidad Abierta y Educación Digital de la UNAM. ©Todos los derechos reservados 2024. Hecho en México. Este sitio puede ser reproducido con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica, de otra forma, se requiere permiso previo por escrito de la Institución.</p>
+            <p>Al navegar en este sitio, encontrará contenidos diseñados por académicos de la UNAM, denominados Recursos Educativos Abiertos (REA), disponibles para todo el público en forma gratuita. Los contenidos de cada REA son responsabilidad exclusiva de sus autores y no tienen impedimento en materia de propiedad intelectual; asimismo, no contienen información que por su naturaleza pueda considerarse confidencial y reservada.</p>
+            <p>Los REA podrán ser utilizarlos sin fines de lucro, citando invariablemente la fuente y sin alterar la obra, respetando los términos institucionales de uso y los derechos de propiedad intelectual de terceros.</p>
+          </div>
+          <div className="w-1/6"></div>
+        </div>
+      </footer>
     </BrowserRouter>
   );
 }

@@ -14,3 +14,7 @@ nav > a.proposal {
 section {
     @apply min-h-screen flex flex-row justify-center items-center py-10;
 }
+
+footer {
+    background-color: #f27b00;
+}
