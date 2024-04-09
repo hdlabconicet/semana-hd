@@ -3,11 +3,13 @@
     background-size: cover;
     @apply text-gray_hd font-normal text-lg leading-relaxed;
 }
-
-.resourcses-items li a{
+.resources-items li {
+    @apply mb-4;
+}
+.resources-items li a{
     @apply transition ease-in-out delay-150 bg-red_hd hover:bg-yellow_hd duration-500 text-white block rounded p-4 mb-4;
 }
 
-.resourcses-items img {
+.resources-items img {
     @apply inline-block align-middle;
 }

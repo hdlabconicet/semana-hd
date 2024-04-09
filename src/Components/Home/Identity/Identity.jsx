@@ -14,7 +14,7 @@ function Identity() {
           </ul>
         </div>
         <div className="xl:w-1/2">
-          <ul className="resourcses-items mt-10 xl:ml-20">
+          <ul className="resources-items mt-10 xl:ml-20">
             <li><a href=""><img src="images/logo-resource.png" width={24} alt="Logotipo" /> Logotipo</a></li>
             <li><a href=""><img src="images/slideshow-resource.png" width={24} alt="Presentación" /> Presentación</a></li>
           </ul>
