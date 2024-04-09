@@ -1,5 +1,5 @@
 .latamhd-section {
-    background: url(../images/latamhd-section.jpg) center no-repeat;
+    background: url(/images/latamhd-section.jpg) center no-repeat;
     background-size: cover;
     @apply text-gray-50 font-normal text-lg leading-relaxed;
 }

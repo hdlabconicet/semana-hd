@@ -1,5 +1,5 @@
 .previous-section {
-    background: url(../images/previous-section.jpg) center no-repeat;
+    background: url(/images/previous-section.jpg) center no-repeat;
     background-size: cover;
     @apply text-gray-50 font-normal text-lg leading-relaxed;
 }

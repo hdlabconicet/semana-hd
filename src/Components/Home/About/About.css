@@ -1,5 +1,5 @@
 .about-section {
-    background: url(../images/about-section.jpg) center no-repeat;
+    background: url(/images/about-section.jpg) center no-repeat;
     background-size: cover;
 }
 .question {
