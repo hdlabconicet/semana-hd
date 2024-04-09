@@ -19,11 +19,11 @@ function Previous() {
             compartir tendencias actuales y fomentar el diálogo en Humanidades
             Digitales.
           </p>
-          <p className="mt-12 previous-semanahd">
+          <p className="my-12 previous-semanahd text-center">
             <a href="">Ver SemanaHD 2023</a><a href="">Ver SemanaHD 2024</a>
           </p>
         </div>
-        <div className="xl:w-1/2">
+        <div className="xl:w-1/2 ">
           <img src="images/semanahd-logo-high.png" alt="Ediciones anteriores" />
         </div>
       </div>
