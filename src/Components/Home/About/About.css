@@ -15,5 +15,5 @@
     @apply grayscale;
 }
 .question .proposal {
-    @apply transition ease-in-out delay-150 bg-red_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded;
+    @apply transition ease-in-out delay-150 bg-green_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded;
 }
