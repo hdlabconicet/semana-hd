@@ -1,0 +1,24 @@
+.latamhd-section {
+    background: url(../images/latamhd-section.jpg) center no-repeat;
+    background-size: cover;
+    @apply text-gray-50 font-normal text-lg leading-relaxed;
+}
+.network-item {
+    @apply xl:w-1/3 p-4 rounded shadow-lg bg-white text-center pb-6 my-6;
+}
+.network-item header h3 {
+    @apply text-2xl font-bold text-red_hd pb-2 border-b-4 mb-8 border-green_hd align-bottom;
+    min-height: 74px;
+}
+.network-item:nth-child(2) header h3 {
+    @apply text-green_hd border-yellow_hd;
+}
+.network-item:nth-child(3) header h3 {
+    @apply text-yellow_hd border-red_hd;
+}
+.network-item header img {
+    @apply inline-block align-middle mb-10;
+}
+.network-links a {
+    @apply inline-block mx-2 align-middle;
+}
