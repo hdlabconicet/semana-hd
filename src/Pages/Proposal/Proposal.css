@@ -1,0 +1,11 @@
+.index-link {
+    @apply transition ease-in-out delay-150 bg-gray-400 hover:bg-gray-700 duration-500 text-gray-50 rounded text-sm inline-block p-2;
+}
+
+.item-row {
+    @apply lg:flex lg:flex-row gap-4 py-2;
+}
+
+input, select {
+    @apply border border-gray-200 focus:border-red-500 focus:ring-0 focus:outline-none rounded p-2;
+}
