@@ -22,3 +22,15 @@ input, select {
 #speaker textarea {
     @apply h-40;
 }
+
+#form-message {
+    @apply min-h-screen fixed top-0 left-0 flex items-center w-full h-full justify-center z-50;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.success-message {
+    @apply bg-gray-50 rounded w-11/12 lg:w-1/2 mx-auto my-20 leading-loose;
+}
+.success-message div {
+    @apply p-6;
+}
