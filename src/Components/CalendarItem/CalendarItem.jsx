@@ -5,7 +5,7 @@ import Moment from "moment";
 const CalendarItem = ({ event }) => {
   return (
     <article className="calendar-item">
-      <h3>{event.attributes.title_event}</h3>
+      <h3>{event.attributes.title}</h3>
       <div className="flex flex-column">
         <div className="w-1/2">
           <p>
@@ -15,7 +15,7 @@ const CalendarItem = ({ event }) => {
               width={16}
               className="inline-block align-baseline"
             />{" "}
-            {Moment(event.attributes.datetime).format("D MMMM YYYY")}
+            {Moment(event.attributes.eventdate).format("D MMMM YYYY")}
             {" "}
             <img
               src="images/clock.png"
@@ -23,7 +23,7 @@ const CalendarItem = ({ event }) => {
               width={16}
               className="inline-block align-baseline"
             />{" "}
-            {Moment(event.attributes.datetime).format("HH:mm")}
+            {Moment(event.attributes.eventdate).format("HH:mm")}
           </p>
         </div>
         <div className="w-1/2 text-right absolute bottom-4 right-4">

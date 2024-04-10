@@ -28,7 +28,7 @@ const emptyItem = () => {
 };
 
 const buildCalendar = (items) => {
-  if (items === null || items.data.length === 0) {
+  if (items === null || !items.data || !items.data.length) {
     return <>{emptyCalendar()}{emptyItem()}{emptyItem()}</>;
   } else {
     const calendarItemsLoad = items.data.map((item) => {
@@ -51,7 +51,7 @@ function Calendar() {
 
   useEffect(() => {
     fetch(
-      `${STRAPI_URL}events?filters[published][$eq]=true&filters[datetime][$gte]=2024-05-06T00:00:00.00Z&sort[0]=updatedAt:desc&pagination[pageSize]=3`,
+      `${STRAPI_URL}hd2024-events?populate=*filters[eventdate][$gte]=2024-05-06T00:00:00.00Z&sort[0]=updatedAt:desc&pagination[pageSize]=3`,
       {
         headers: {
           "Content-Type": "application/json",
@@ -61,6 +61,7 @@ function Calendar() {
     )
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         setItems(data);
       });
   }, []);
