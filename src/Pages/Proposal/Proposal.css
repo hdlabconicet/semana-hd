@@ -3,9 +3,22 @@
 }
 
 .item-row {
-    @apply lg:flex lg:flex-row gap-4 py-2;
+    @apply lg:flex lg:flex-row gap-4 p-2;
 }
 
 input, select {
     @apply border border-gray-200 focus:border-red-500 focus:ring-0 focus:outline-none rounded p-2;
+}
+
+#speaker {
+    @apply pt-2 mb-4 rounded;
+    background-color: rgba(245, 143, 138, 0.1);
+}
+
+#speaker .item-row {
+    @apply px-4;
+}
+
+#speaker textarea {
+    @apply h-40;
 }

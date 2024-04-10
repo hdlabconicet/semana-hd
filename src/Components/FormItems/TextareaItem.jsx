@@ -1,4 +1,4 @@
-const TextareaItem = (idItem, titleItem) => {
+const TextareaItem = (idItem, titleItem, requiredItem) => {
   return (
     <div className="mb-4 w-full">
       <div className="flex flex-col">
@@ -9,7 +9,7 @@ const TextareaItem = (idItem, titleItem) => {
           id={idItem}
           name={idItem}
           className="border border-gray-200 resize-none focus:border-green_hd focus:ring-0 focus:outline-none rounded p-2 w-full"
-          required
+          required={requiredItem}
         />
       </div>
     </div>
