@@ -138,7 +138,7 @@ function Proposal() {
           <div>
           <h4 className="bg-green_hd text-white p-2 rounded-sm mb-6" id="pre_event_title"></h4>
           <p>Tu propuesta de evento ha sido registrada.</p>
-          <p>En breve revisaremos tu propuesta y en caso de ser aprobada recibirás un correo electrónico con algunas recomendaciónes para que tu evento sea aún más éxitoso.</p>
+          <p>En breve revisaremos tu propuesta y en caso de ser aprobada recibirás un correo electrónico con algunas recomendaciones para que tu evento sea aún más éxitoso.</p>
           <p>No olvides unirte al canal de <a href="https://t.me/+k6eJFMu9xTxiMTZh" target="_blank" rel="noopener noreferrer" className="underline text-blue-500">Telegram <img src="images/telegram.png" alt="Telegram" width={24} className="inline align-bottom" /></a> para mantenerte al tanto de las novedades de la Semana de Humanidades Digitales.</p>
           <p className="mt-12 text-center"><NavLink to="/" className="index-link bg-red_hd">
               Continuar
