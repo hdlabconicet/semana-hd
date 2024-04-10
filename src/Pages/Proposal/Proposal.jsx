@@ -15,7 +15,7 @@ const sendEvent = (event) => {
 
   let formEvent = {
     title: document.getElementById("title").value,
-    eventdate: Tz.tz(document.getElementById("eventdate").value)
+    eventdate: Tz(document.getElementById("eventdate").value)
       .tz("UTC")
       .format(),
     language: document.getElementById("language").value,
@@ -33,8 +33,6 @@ const sendEvent = (event) => {
   fileEvent = {
     data: Object.assign(formEvent),
   };
-
-  
 
   fetch(`${STRAPI_URL}hd2024-events`, {
     method: "post",

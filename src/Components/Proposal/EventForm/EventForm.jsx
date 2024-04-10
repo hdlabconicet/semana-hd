@@ -47,7 +47,6 @@ const EventForm = () => {
               className="border border-gray-200 focus:border-green_hd focus:ring-0 focus:outline-none rounded p-2"
               min="2024-05-06T00:00"
               max="2024-05-10T23:59"
-              value={`2024-05-06T${Tz().tz(timezone).format("HH:mm")}`}
               required
             />
           </div>
