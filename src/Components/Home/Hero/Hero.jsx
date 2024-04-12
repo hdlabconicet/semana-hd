@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
           <ColorBar />
           <h4 className="mt-12 text-green_hd font-semibold text-xl md:text-2xl xl:text-3xl">
-            del 6 al 10 de mayo de 2024
+            del 20 al 25 de mayo de 2024
           </h4>
         </div>
       </div>
