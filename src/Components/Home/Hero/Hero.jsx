@@ -14,12 +14,12 @@ const Hero = () => {
         </div>
         <div className="mt-10 lg:mt-0 lg:w-1/2 p-4 2xl:pl-10 text-center">
           <p className="mb-12 md:text-lg 2xl:text-2xl leading-relaxed 2xl:leading-10">
-            La SemanaHD es un evento gratuito y que sucede completamente en
-            línea. Se trata de un evento colaborativo y abierto en el que a lo
-            largo de una semana se desarrollan charlas, paneles, mesas de
-            debates y talleres, etc. sobre Humanidades Digitales. El objetivo de
-            la SemanaHD es dar visibilidad a los proyectos e iniciativas sobre
-            Humanidades Digitales en América Latina y el Caribe.
+            La SemanaHD es un evento abierto y colaborativo que tiene como
+            objetivo dar visibilidad a los proyectos e iniciativas sobre
+            Humanidades Digitales en América Latina y el Caribe. A lo largo de
+            una semana se desarrollan charlas, paneles, mesas de debates y
+            talleres, etcétera. sobre Humanidades Digitales. Es un encuentro
+            gratuito y se desarrolla completamente en línea. ¡Participa!
           </p>
           <ColorBar />
           <h4 className="mt-12 text-green_hd font-semibold text-xl md:text-2xl xl:text-3xl">

@@ -14,18 +14,7 @@
 .last-events {
     @apply my-10;
 }
-.calendar-item {
-    @apply bg-gray-50 text-gray_hd p-4 mb-4 rounded-sm shadow min-h-40 relative;
-}
-.calendar-item h3 {
-    @apply text-lg font-medium pb-1 mb-4 border-b-2;
-}
-.calendar-item:nth-child(1) > h3 {
-    @apply border-red_hd;
-}
-.calendar-item a {
-    @apply transition ease-in-out delay-150 text-gray-50 text-sm bg-green_hd hover:bg-yellow_hd duration-500 inline-block p-2 rounded-sm;
-}
+
 .empty-item {
     background: rgba(0, 0, 0, 0.2);
     @apply min-h-40 mb-4 rounded;

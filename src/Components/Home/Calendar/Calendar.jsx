@@ -80,7 +80,7 @@ function Calendar() {
             visualizar todos los eventos da clic en Ver calendario.
           </p>
           <p>
-            El calendario se visualiza en la zona horaria de tu navegador. Si
+            Los eventos se visualizan en la zona horaria de tu navegador. Si
             necesitas ver la zona horaria de tu navegador o comparar con otra
             zona horaria puedes ir al sitio{" "}
             <a

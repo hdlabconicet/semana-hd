@@ -1,0 +1,16 @@
+.speaker-bio {
+    @apply my-6 mx-2 rounded-sm shadow p-4;
+}
+.speaker-bio h5 {
+    @apply text-lg font-semibold text-red_hd mb-4 border-b border-red_hd;
+}
+.speaker-bio:nth-child(3n+2) h5 {
+    @apply text-green_hd border-green_hd;
+}
+.speaker-bio:nth-child(3n+3) h5 {
+    @apply text-yellow_hd border-yellow_hd;
+}
+.speaker-bio pre {
+    @apply font-mulish leading-relaxed;
+    white-space: pre-wrap;
+}

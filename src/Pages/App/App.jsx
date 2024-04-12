@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import ColorBar from "../../Components/ColorBar/ColorBar";
 import Home from "../Home/Home";
 import Proposal from "../Proposal/Proposal";
+import Calendar from "../Calendar/Calendar";
 import NotFound from "../NotFound/NotFound";
 import "./App.css";
 
@@ -10,6 +11,7 @@ const AppRoutes = () => {
   return useRoutes([
     { path: "/", element: <Home /> },
     { path: "/proposal", element: <Proposal />},
+    { path: "/calendar", element: <Calendar />},
     { path: "*", element: <NotFound /> },
   ]);
 };
