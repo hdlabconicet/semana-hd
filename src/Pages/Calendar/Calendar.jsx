@@ -59,9 +59,13 @@ function Calendar() {
       });
   };
 
+  const handleHideDetails = () => {
+    document.getElementById("event-details").style.display = "none";
+  }
+
   return (
     <>
-      <div id="event-details">
+      <div id="event-details" onClick={handleHideDetails}>
         {showDetails && (
           <EventDetails
             eventDetails={eventDetails}
