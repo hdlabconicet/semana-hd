@@ -65,7 +65,6 @@ function Calendar() {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setItems(data);
       });
   }, []);

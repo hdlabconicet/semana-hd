@@ -1,5 +1,5 @@
 nav {
-    @apply bg-white sticky top-0 left-0 right-0 text-center md:text-left z-50;
+    @apply bg-white sticky top-0 left-0 right-0 text-center md:text-left z-30;
 }
 nav > a {
     @apply inline-block m-2 xl:my-4 align-middle;

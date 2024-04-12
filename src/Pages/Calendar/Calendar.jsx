@@ -4,10 +4,10 @@ import CalendarItem from "../../Components/CalendarItem/CalendarItem";
 import EventDetails from "../../Components/EventDetails/EventDetails";
 import "./Calendar.css";
 
-function Calendar() {
-  const STRAPI_URL = import.meta.env.VITE_STRAPI_URL;
-  const STRAPI_TOKEN = import.meta.env.VITE_STRAPI_TOKEN;
+const STRAPI_URL = import.meta.env.VITE_STRAPI_URL;
+const STRAPI_TOKEN = import.meta.env.VITE_STRAPI_TOKEN;
 
+function Calendar() {
   const [items, setItems] = useState(null);
   const [eventDetails, setEventDetails] = useState([]);
   const [speakersDetails, setSpeakersDetails] = useState([]);
@@ -52,25 +52,24 @@ function Calendar() {
           .then((dataSpeakers) => {
             setSpeakersDetails(dataSpeakers.data);
             setShowDetails(true);
-            document.getElementById("event-details").style.display = "block";
           });
+        document.getElementById("event-details").style.display = "block";
       });
   };
 
-  const handleHideDetails = () => {
-    document.getElementById("event-details").style.display = "none";
+  const handleHideEventClick = () => {
+    setShowDetails(false);
   }
 
   return (
     <>
-      <div id="event-details" onClick={handleHideDetails}>
-        {showDetails && (
-          <EventDetails
-            eventDetails={eventDetails}
-            speakersDetails={speakersDetails}
-          />
-        )}
-      </div>
+      {showDetails && (
+        <EventDetails
+          eventDetails={eventDetails}
+          speakersDetails={speakersDetails}
+          onEventClick={handleHideEventClick}
+        />
+      )}
       <section id="calendar">
         <div className="w-11/12 lg:w-3/4">
           <header>

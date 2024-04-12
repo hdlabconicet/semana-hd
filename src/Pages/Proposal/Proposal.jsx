@@ -122,7 +122,6 @@ function Proposal() {
     ) {
       alert("Falta información del evento");
     } else {
-      console.log(speakers);
       if (speakers.length === 0) {
         alert("No se ha agregado ponente al evento");
       } else {

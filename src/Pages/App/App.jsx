@@ -24,7 +24,7 @@ function App() {
       <nav>
         <NavLink to="/">
           <img
-            src="images/semanahd-logo.jpg"
+            src="/images/semanahd-logo.jpg"
             alt="Semana de Humanidades Digitales"
             width={158}
           />
@@ -35,7 +35,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="images/cuaed.png"
+            src="/images/cuaed.png"
             alt="Coordinación de Universidad Abierta y Educación Digital"
             width={166}
           />
@@ -46,7 +46,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="images/aahd.png"
+            src="/images/aahd.png"
             alt="Asociación Argentina de Humanidades Digitales"
             width={60}
           />
@@ -57,7 +57,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="images/rchd.png"
+            src="/images/rchd.png"
             alt="Red Colombiana de Humanidades Digitales"
             width={78}
           />
@@ -68,7 +68,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="images/rhd.png"
+            src="/images/rhd.png"
             alt="Red de Humanidades Digitales"
             width={68}
           />
@@ -90,7 +90,7 @@ function App() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="images/bunam_mooc.svg"
+                  src="/images/bunam_mooc.svg"
                   alt="B@UNAM & MOOC"
                   width={100}
                 />

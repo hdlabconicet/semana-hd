@@ -6,9 +6,3 @@
 #calendar header {
     @apply text-2xl font-semibold p-4 mb-6 bg-yellow_hd rounded-sm text-gray-50 flex flex-row justify-between;
 }
-
-#event-details {
-    @apply fixed top-0 left-0 flex items-center w-full h-full justify-end z-50;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-}

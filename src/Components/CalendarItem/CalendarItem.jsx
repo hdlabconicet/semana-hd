@@ -17,7 +17,7 @@ const CalendarItem = ({ event, onEventClick }) => {
         <div className="w-1/2 text-sm">
           <p>
             <img
-              src="images/calendar.png"
+              src="/images/calendar.png"
               alt="calendar"
               width={16}
               className="inline-block align-baseline"
@@ -25,7 +25,7 @@ const CalendarItem = ({ event, onEventClick }) => {
             {Moment(event.attributes.eventdate).format("D MMMM YYYY")}
             {" "}
             <img
-              src="images/clock.png"
+              src="/images/clock.png"
               alt="clock"
               width={16}
               className="inline-block align-baseline"
