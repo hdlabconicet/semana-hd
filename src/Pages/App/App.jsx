@@ -4,6 +4,7 @@ import ColorBar from "../../Components/ColorBar/ColorBar";
 import Home from "../Home/Home";
 import Proposal from "../Proposal/Proposal";
 import Calendar from "../Calendar/Calendar";
+import CalendarEvent from "../CalendarEvent/CalendarEvent";
 import NotFound from "../NotFound/NotFound";
 import "./App.css";
 
@@ -12,6 +13,7 @@ const AppRoutes = () => {
     { path: "/", element: <Home /> },
     { path: "/proposal", element: <Proposal /> },
     { path: "/calendar", element: <Calendar /> },
+    { path: "/calendar/:id", element: <CalendarEvent /> },
     { path: "*", element: <NotFound /> },
   ]);
 };
