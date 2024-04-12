@@ -3,6 +3,10 @@ import { NavLink } from "react-router-dom";
 import CalendarItem from "../../CalendarItem/CalendarItem";
 import "./Calendar.css";
 
+const handleEventDetailsClick = (eventId) => {
+  window.location.href = '/calendar/' + eventId;
+};
+
 const emptyCalendar = () => {
   return (
     <article className="calendar-item">
@@ -32,7 +36,7 @@ const buildCalendar = (items) => {
     return <>{emptyCalendar()}{emptyItem()}{emptyItem()}</>;
   } else {
     const calendarItemsLoad = items.data.map((item) => {
-      return <CalendarItem event={item} key={item.id} />;
+      return <CalendarItem event={item} key={item.id} onEventClick={handleEventDetailsClick} />;
     });
 
     for (let i = items.data.length; i < 3; i++) {

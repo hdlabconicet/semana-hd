@@ -30,7 +30,6 @@ function Calendar() {
   }, []);
 
   const handleEventClick = (eventId) => {
-    console.log(eventId);
     fetch(`${STRAPI_URL}hd2024-events?filters[id][$eq]=${eventId}`, {
       headers: {
         "Content-Type": "application/json",
@@ -51,7 +50,6 @@ function Calendar() {
         )
           .then((response) => response.json())
           .then((dataSpeakers) => {
-            console.log(dataSpeakers.data)
             setSpeakersDetails(dataSpeakers.data);
             setShowDetails(true);
             document.getElementById("event-details").style.display = "block";
