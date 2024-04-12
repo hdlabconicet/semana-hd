@@ -1,5 +1,5 @@
 nav {
-    @apply bg-white sticky top-0 left-0 right-0 text-center sm:text-left z-50;
+    @apply bg-white sticky top-0 left-0 right-0 text-center md:text-left z-50;
 }
 nav > a {
     @apply inline-block m-2 xl:my-4 align-middle;
@@ -8,7 +8,7 @@ nav > a:first-child {
     @apply xl:ml-10;
 }
 nav > a.proposal {
-    @apply transition ease-in-out delay-150 bg-green_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded sm:fixed sm:right-0 xl:right-4 sm:top-5;
+    @apply transition ease-in-out delay-150 bg-green_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded md:fixed md:right-0 xl:right-4 sm:top-5;
 }
 
 section {
