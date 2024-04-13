@@ -30,14 +30,25 @@ function App() {
           />
         </NavLink>
         <a
+          href="https://unam.mx/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/images/logo-unam.jpg"
+            alt="Universidad Nacional Autónoma de México"
+            width={56}
+          />
+        </a>
+        <a
           href="https://cuaieed.unam.mx/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="/images/cuaed.png"
+            src="/images/logo-cuaed-ver.jpg"
             alt="Coordinación de Universidad Abierta y Educación Digital"
-            width={166}
+            width={72}
           />
         </a>
         <a
