@@ -20,7 +20,7 @@ function Previous() {
             Digitales.
           </p>
           <p className="my-12 previous-semanahd text-center">
-            <a href="previous/#/semanahd-2022">Ver SemanaHD 2022</a><a href="previous/#/semanahd-2023">Ver SemanaHD 2023</a>
+            <a href="https://ada.bunam.unam.mx:8091/previous-hd/#/semanahd-2022">Ver SemanaHD 2022</a><a href="https://ada.bunam.unam.mx:8091/previous-hd/#/semanahd-2023">Ver SemanaHD 2023</a>
           </p>
         </div>
         <div className="xl:w-1/2 ">
