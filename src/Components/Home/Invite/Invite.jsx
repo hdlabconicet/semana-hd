@@ -11,22 +11,22 @@ const Invite = () => {
         <section className="invite-section">
             <div className="grid gap-8 lg:gap-16 xl:gap-20 lg:grid-cols-3 w-11/12 xl:w-2/3 2xl:w-2/3">
                 <div>
-                    {iFrame("https://www.youtube.com/embed/HBueiDXwvMI?si=FMHydDxfnnd_uMdv")}
+                    {iFrame("https://www.youtube.com/embed/AK5ewq4IRRw")}
                 </div>
                 <div>
-                    {iFrame("https://www.youtube.com/embed/loySwV_NAiI?si=w5Cp8z_VsG5WytuW")}
+                    {iFrame("https://www.youtube.com/embed/YKwbg-kyTy4")}
                 </div>
                 <div className="content-center">
                     <img src="images/semanahd.png" alt="Semana de Humanidades Digitales" />
                 </div>
                 <div>
-                    {iFrame("https://www.youtube.com/embed/9I_Yf9y96E8?si=s-rPqdW4FKnBhhLI")}
+                    {iFrame("https://www.youtube.com/embed/aA1Sqr85PTE")}
                 </div>
                 <div>
-                    {iFrame("https://www.youtube.com/embed/9I_Yf9y96E8?si=s-rPqdW4FKnBhhLI")}
+                    {iFrame("https://www.youtube.com/embed/bpcwrhJerhI")}
                 </div>
                 <div>
-                    {iFrame("https://www.youtube.com/embed/9I_Yf9y96E8?si=s-rPqdW4FKnBhhLI")}
+                    {iFrame("https://www.youtube.com/embed/WojFmR0eKIo")}
                 </div>
             </div>
         </section>
