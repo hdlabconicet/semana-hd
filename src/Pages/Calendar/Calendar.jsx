@@ -74,7 +74,7 @@ function Calendar() {
         <div className="w-11/12 lg:w-3/4">
           <header>
             <h1>Calendario</h1>
-            <NavLink to="/" className="index-link">
+            <NavLink to="/" className="index-link bg-red_hd">
               Regresar al inicio
             </NavLink>
           </header>
@@ -99,7 +99,7 @@ function Calendar() {
               .
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 mt-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-4 mt-12">
             {items !== null &&
               items.data.map((item) => {
                 return (

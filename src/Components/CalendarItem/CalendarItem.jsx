@@ -15,26 +15,33 @@ const CalendarItem = ({ event, onEventClick }) => {
       <h3>{event.attributes.title}</h3>
       <div className="flex flex-column">
         <div className="w-1/2 text-sm">
-          <p>
-            <img
-              src="/images/calendar.png"
-              alt="calendar"
-              width={16}
-              className="inline-block align-baseline"
-            />{" "}
-            {Moment(event.attributes.eventdate).format("D MMMM YYYY")}
-            {" "}
-            <img
-              src="/images/clock.png"
-              alt="clock"
-              width={16}
-              className="inline-block align-baseline"
-            />{" "}
-            {Moment(event.attributes.eventdate).format("HH:mm")}
+          <p className="flex flex-col sm:flex-row md:flex-col 2xl:flex-row">
+            <span className="w-full sm:w-1/2 md:w-full inline-block">
+              <img
+                src="/images/calendar.png"
+                alt="calendar"
+                width={16}
+                className="inline-block align-baseline"
+              />{" "}
+              {Moment(event.attributes.eventdate).format("D MMMM YYYY")}
+            </span>{" "}
+            <span className="w-full sm:w-1/2 md:w-full mt-2 sm:mt-0 md:mt-2 2xl:mt-0 inline-block">
+              <img
+                src="/images/clock.png"
+                alt="clock"
+                width={16}
+                className="inline-block align-baseline"
+              />{" "}
+              {Moment(event.attributes.eventdate).format("HH:mm")}
+            </span>
           </p>
         </div>
         <div className="w-1/2 text-right absolute bottom-4 right-4">
-          <a href={`/event/${event.id}`} className="proposal-link" onClick={handleEventClick}>
+          <a
+            href={`/event/${event.id}`}
+            className="proposal-link"
+            onClick={handleEventClick}
+          >
             Ver detalles
           </a>
         </div>

@@ -4,8 +4,16 @@
 .calendar-item h3 {
   @apply text-lg font-medium pb-1 mb-4 border-b-2;
 }
-.calendar-item:nth-child(1) > h3 {
+.calendar-item:nth-child(3n+1) > h3 {
   @apply border-red_hd;
+}
+
+.calendar-item:nth-child(3n+2) > h3 {
+  @apply border-green_hd;
+}
+
+.calendar-item:nth-child(3n+3) > h3 {
+  @apply border-yellow_hd;
 }
 .calendar-item a {
   @apply transition ease-in-out delay-150 text-gray-50 text-sm bg-green_hd hover:bg-yellow_hd duration-500 inline-block p-2 rounded-sm;

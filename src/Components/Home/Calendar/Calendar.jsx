@@ -99,7 +99,7 @@ function Calendar() {
         <div className="xl:w-1/2">
           <div className="last-events">{buildCalendar(items)}</div>
           <div className="text-right">
-            <NavLink to="/calendar" className="calendar-link">
+            <NavLink to="/calendar" className="calendar-link bg-red_hd">
               Ver calendario
             </NavLink>
           </div>
