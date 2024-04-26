@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="section-hd about-section">
       <div className="lg:flex lg:flex-row lg:gap-8 items-center w-11/12 lg:w-10/12">
         <div className="lg:w-1/2">
           <div className="question">

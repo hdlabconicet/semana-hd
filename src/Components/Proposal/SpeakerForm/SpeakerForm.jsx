@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import InputItem from "../../FormItems/InputItem";
 import textareaItem from "../../FormItems/TextareaItem";
 
@@ -48,6 +49,10 @@ const SpeakerForm = ({addSpeakers}) => {
       </div>
     </div>
   );
+};
+
+SpeakerForm.propTypes = {
+  addSpeakers: PropTypes.func.isRequired,
 };
 
 export default SpeakerForm;

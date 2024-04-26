@@ -8,23 +8,23 @@ const iFrame = (srcVideo) => {
 
 const Invite = () => {
     return(
-        <section className="invite-section">
+        <section className="section-hd invite-section">
             <div className="grid gap-8 lg:gap-16 xl:gap-20 lg:grid-cols-3 w-11/12 xl:w-2/3 2xl:w-2/3">
-                <div>
+                {/*<div>
                     {iFrame("https://www.youtube.com/embed/AK5ewq4IRRw")}
-                </div>
+    </div>*/}
                 <div>
                     {iFrame("https://www.youtube.com/embed/YKwbg-kyTy4")}
                 </div>
                 <div className="content-center">
                     <img src="images/semanahd.png" alt="Semana de Humanidades Digitales" />
                 </div>
-                <div>
+                {/*<div>
                     {iFrame("https://www.youtube.com/embed/aA1Sqr85PTE")}
-                </div>
-                <div>
+</div>*/}
+                {/*<div>
                     {iFrame("https://www.youtube.com/embed/bpcwrhJerhI")}
-                </div>
+</div>*/}
                 <div>
                     {iFrame("https://www.youtube.com/embed/WojFmR0eKIo")}
                 </div>

@@ -11,7 +11,7 @@ nav > a.proposal {
     @apply transition ease-in-out delay-150 bg-green_hd hover:bg-yellow_hd duration-500 text-white p-2 rounded md:fixed md:right-0 xl:right-4 sm:top-5;
 }
 
-section {
+section.section-hd {
     @apply min-h-screen flex flex-row justify-center items-center py-10;
 }
 

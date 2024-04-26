@@ -6,13 +6,22 @@ const networkItem = (networkData) => {
       <header>
         <h3>{networkData.title}</h3>
         <p>
-          <img src={networkData.image} alt={networkData.title} width={networkData.imageWidth} />
+          <img
+            src={networkData.image}
+            alt={networkData.title}
+            width={networkData.imageWidth}
+          />
         </p>
       </header>
       <div className="network-links">
         {networkData.links.map((link, index) => {
           return (
-            <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={`${link.image}.png`} alt={link.image} width={32} />
             </a>
           );
@@ -24,7 +33,7 @@ const networkItem = (networkData) => {
 
 function LatamHD() {
   return (
-    <section className="latamhd-section">
+    <section className="section-hd latamhd-section">
       <div className="lg:w-2/3 xl:w-11/12 2xl:w-10/12 mx-auto px-4 xl:flex xl:flex-col items-center gap-10">
         <div className="w-full">
           <h2 className="text-2xl bg-green_hd text-white p-2 block mb-6">
@@ -36,11 +45,20 @@ function LatamHD() {
             DH2018 celebrado en Ciudad de México. La idea de un nodo sobre
             proyectos e información sobre Humanidades Digitales en América
             Latina, más allá de las asociaciones y los grupos ya constituidos,
-            fue fortalecida en el congreso de la <a href="https://aahd.net.ar/" target="_blank" rel="noopener noreferrer" className="underline text-yellow_hd">AAHD</a> que ese mismo año se llevó
-            a cabo en la ciudad de Rosario (Argentina).
+            fue fortalecida en el congreso de la{" "}
+            <a
+              href="https://aahd.net.ar/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-yellow_hd"
+            >
+              AAHD
+            </a>{" "}
+            que ese mismo año se llevó a cabo en la ciudad de Rosario
+            (Argentina).
           </p>
           <p>
-            LatamHD busca hoy ser un punto de encuentro para iniciativas comunes
+            LatamHD busca hoy ser un punto de encuentro para iniciativas comunes
             de la comunidad de humanistas digitales latinoamericanos y/o
             interesados en la investigación sobre las Humanidades Digitales en
             nuestra región.
@@ -68,7 +86,10 @@ function LatamHD() {
                 url: "https://www.facebook.com/groups/humanidadesdigitalesargentina/",
                 image: "images/facebookgroups-logo",
               },
-              { url: "https://www.instagram.com/humanidadesdigitalesargentina/", image: "images/instagram-logo" },
+              {
+                url: "https://www.instagram.com/humanidadesdigitalesargentina/",
+                image: "images/instagram-logo",
+              },
             ],
           })}
           {networkItem({
@@ -80,7 +101,10 @@ function LatamHD() {
                 url: "https://www.facebook.com/redcolhd",
                 image: "images/facebook-logo",
               },
-              { url: "https://twitter.com/ReHDi_Co", image: "images/twitter-logo" },
+              {
+                url: "https://twitter.com/ReHDi_Co",
+                image: "images/twitter-logo",
+              },
               {
                 url: "https://www.youtube.com/channel/UCR3fSjgX-jXplnpm_wg8rag/featured",
                 image: "images/youtube-logo",
@@ -92,7 +116,10 @@ function LatamHD() {
             image: "images/rhd.png",
             imageWidth: 136,
             links: [
-              { url: "https://www.facebook.com/humanidadesdigitalesred", image: "images/facebook-logo" },
+              {
+                url: "https://www.facebook.com/humanidadesdigitalesred",
+                image: "images/facebook-logo",
+              },
               {
                 url: "https://twitter.com/red_hd",
                 image: "images/twitter-logo",

@@ -2,7 +2,7 @@ import "./Previous.css";
 
 function Previous() {
   return (
-    <section className="previous-section">
+    <section className="section-hd previous-section">
       <div className="lg:w-2/3 xl:w-11/12 2xl:w-10/12 mx-auto px-4 xl:flex xl:flex-row items-center gap-10">
         <div className="xl:w-1/2">
           <p>

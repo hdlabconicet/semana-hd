@@ -2,7 +2,7 @@ import ColorBar from "../../ColorBar/ColorBar";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-50">
+    <section className="section-hd bg-gray-50">
       <div className="lg:flex lg:flex-row justify-center items-center w-11/12 xl:w-10/12 py-10">
         <div className="lg:w-1/2 p-4">
           <img

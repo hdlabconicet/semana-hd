@@ -2,7 +2,7 @@ import "./Identity.css";
 
 function Identity() {
   return (
-    <section className="identity-section">
+    <section className="section-hd identity-section">
       <div className="lg:w-2/3 xl:w-11/12 2xl:w-10/12 mx-auto px-4 xl:flex xl:flex-row items-center gap-6">
         <div className="xl:w-1/2">
           <h2 className="text-2xl text-white bg-red_hd p-2 block mb-6">Recursos</h2>

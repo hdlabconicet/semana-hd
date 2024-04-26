@@ -70,7 +70,7 @@ function Calendar() {
           onEventClick={handleHideEventClick}
         />
       )}
-      <section id="calendar">
+      <section className="section-hd" id="calendar">
         <div className="w-11/12 lg:w-3/4">
           <header>
             <h1>Calendario</h1>

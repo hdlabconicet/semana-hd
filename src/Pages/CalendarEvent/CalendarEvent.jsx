@@ -36,7 +36,7 @@ function CalendarEvent() {
             setShowDetails(true);
           });
       });
-  }, []);
+  }, [id]);
 
   const handleHideEventClick = () => {
     window.location.href = '/calendar/';
@@ -51,7 +51,7 @@ function CalendarEvent() {
             onEventClick={handleHideEventClick}
           />
         )}
-      <section id="calendar">
+      <section className="section-hd" id="calendar">
         <div className="w-11/12 lg:w-3/4">
           <header>
             <h1>Calendario</h1>

@@ -1,6 +1,6 @@
 function NotFound() {
   return (
-    <section>
+    <section className="section-hd">
       <div className="text-center">
         <h1 className="text-2xl font-medium leading-relaxed mb-12">
           Esta ruta no conduce a información de<br />la Semana de Humanidades

@@ -70,7 +70,7 @@ function Calendar() {
   }, []);
 
   return (
-    <section className="calendar-section">
+    <section className="section-hd calendar-section">
       <div className="p-4 xl:p-0 lg:w-2/3 xl:w-11/12 2xl:w-10/12 xl:flex xl:flex-row xl:gap-6">
         <div className="xl:w-1/2">
           <h2>Calendario</h2>
