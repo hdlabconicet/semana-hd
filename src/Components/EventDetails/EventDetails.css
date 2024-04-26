@@ -21,7 +21,11 @@
   @apply font-semibold;
 }
 .details #eventlink {
-  @apply bg-green_hd text-gray-50 text-center p-2 rounded inline-block;
+  @apply transition ease-in-out delay-150 bg-red_hd hover:bg-yellow_hd text-gray-50 text-center mx-1 p-2 rounded inline-block;
+}
+.details #moreinfo {
+  @apply transition ease-in-out delay-150 bg-green_hd hover:bg-yellow_hd text-gray-50 text-center mx-1 p-2 rounded inline-block;
+
 }
 .details pre {
   @apply font-mulish leading-relaxed;
