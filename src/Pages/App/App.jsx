@@ -84,9 +84,9 @@ function App() {
             width={68}
           />
         </a>
-        <NavLink to="/proposal" className="proposal">
+        {/*<NavLink to="/proposal" className="proposal">
           Propón un evento
-        </NavLink>
+  </NavLink>*/}
         <ColorBar />
       </nav>
       <AppRoutes />
