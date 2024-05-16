@@ -9,8 +9,8 @@ function Identity() {
           <p>Nos emociona contar con su participación en este evento que celebra y profundiza en el fascinante mundo de las Humanidades Digitales.</p>
           <h3 className="text-xl text-red_hd border-b border-red_hd mt-12 mb-6">¿Cómo utilizar estos recursos?</h3>
           <ul>
-            <li><strong>Logotipo oficial</strong>. Úsalo en todas las diapositivas de tu presentación y materiales promocionales relacionados con su participación en el evento. Esto no solo refuerza la identidad visual del evento, sino que también crea un sentido de unidad y pertenencia entre todos los participantes.</li>
-            <li><strong>Plantilla de presentación</strong>. Hemos diseñado una plantilla que no solo es estéticamente agradable, sino también funcional, con espacios predeterminados para títulos, subtítulos, contenido y notas. Esta uniformidad garantiza que nuestro público disfrute de una experiencia visual coherente y profesional a lo largo de todas las presentaciones.</li>
+            <li><strong>Logotipo oficial</strong>. Puedes usarlo en las diapositivas de tu presentación y materiales promocionales relacionados con su participación en el evento.</li>
+            <li><strong>Plantilla de presentación</strong>. Te proponemos esta plantilla de presentación que puedes adaptar a tus necesidades.</li>
           </ul>
         </div>
         <div className="xl:w-1/2">
