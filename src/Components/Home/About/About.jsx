@@ -17,12 +17,7 @@ const About = () => {
           <div className="question">
             <h3>¿Cómo puedo participar en la Semana HD?</h3>
             <p>
-              Para participar de la SemanaHD solo hay que enviar una propuesta
-              de un evento en línea a través del botón Envía tu propuesta.
-              Simplemente, eliges el día y el horario que te quede conveniente
-              para tu evento. Todos los horarios se muestran en tu hora local y
-              se mostrarán a los asistentes en sus respectivas horas locales, no
-              tienes que hacer ningún cálculo.
+            Para participar de la SemanaHD comparte los datos de tu evento a través del botón. Asegúrate de compartir toda la información necesaria (hora, día, enlace de acceso) para que cada persona interesada pueda verlo en línea o ingresar a una sesión en plataforma de videoconferencia. Todos los horarios se muestran en tu hora local y se mostrarán a los asistentes en sus respectivas horas locales, no tienes que hacer ningún cálculo.
             </p>
           </div>
           <div className="question">
