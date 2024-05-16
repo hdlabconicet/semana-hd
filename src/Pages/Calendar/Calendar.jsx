@@ -15,7 +15,7 @@ function Calendar() {
 
   useEffect(() => {
     fetch(
-      `${STRAPI_URL}hd2024-events?populate=*filters[eventdate][$gte]=2024-05-06T00:00:00.00Z&sort[0]=eventdate:asc`,
+      `${STRAPI_URL}hd2024-events?populate=*filters[eventdate][$gte]=2024-05-06T00:00:00.00Z&pagination[pageSize]=200&sort[0]=eventdate:asc`,
       {
         headers: {
           "Content-Type": "application/json",
