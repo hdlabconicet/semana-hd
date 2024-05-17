@@ -23,7 +23,7 @@ const About = () => {
           <div className="question">
             <h3>¿Cuándo es la fecha límite para enviar la propuesta?</h3>
             <p>El 15 de mayo de 2024.</p>
-            <p className="mt-4"><NavLink to="/proposal" className="proposal">Propón un evento desde aquí</NavLink></p>
+            {/*<p className="mt-4"><NavLink to="/proposal" className="proposal">Propón un evento desde aquí</NavLink></p>*/}
           </div>
         </div>
         <div className="lg:w-1/2">
