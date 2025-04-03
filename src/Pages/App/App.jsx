@@ -30,7 +30,7 @@ function App() {
           />
         </NavLink>
         <a
-          href="https://unam.mx/"
+          href="https://hdlab.space/"
           target="_blank"
           rel="noopener noreferrer"
         >
