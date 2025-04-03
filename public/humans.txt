@@ -31,7 +31,7 @@
     From: Mexico City, Mexico
 
 /* SITE */
-	Last update:2024/04/25
+	Last update:2025/04/25
 	Language: Spanish
 	Doctype: HTML5
 	IDE: VSCode, Photoshop, Figma

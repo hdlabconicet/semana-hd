@@ -12,7 +12,7 @@ function CalendarEvent() {
   const [showDetails, setShowDetails] = useState(false);
 
   useEffect(() => {
-    fetch(`${STRAPI_URL}hd2024-events?filters[id][$eq]=${id}`, {
+    fetch(`${STRAPI_URL}hd2025-events?filters[id][$eq]=${id}`, {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${STRAPI_TOKEN}`,
@@ -22,7 +22,7 @@ function CalendarEvent() {
       .then((dataEvent) => {
         setEventDetails(dataEvent.data[0]);
         fetch(
-          `${STRAPI_URL}hd2024-speakers?filters[hd_2024_event][id][$eq]=${id}`,
+          `${STRAPI_URL}hd2025-speakers?filters[hd_2025_event][id][$eq]=${id}`,
           {
             headers: {
               "Content-Type": "application/json",

@@ -15,7 +15,7 @@ function Calendar() {
 
   useEffect(() => {
     fetch(
-      `${STRAPI_URL}hd2024-events?populate=*filters[eventdate][$gte]=2024-05-06T00:00:00.00Z&pagination[pageSize]=200&sort[0]=eventdate:asc`,
+      `${STRAPI_URL}hd2025-events?populate=*filters[eventdate][$gte]=2025-05-06T00:00:00.00Z&pagination[pageSize]=200&sort[0]=eventdate:asc`,
       {
         headers: {
           "Content-Type": "application/json",
@@ -30,7 +30,7 @@ function Calendar() {
   }, []);
 
   const handleEventClick = (eventId) => {
-    fetch(`${STRAPI_URL}hd2024-events?filters[id][$eq]=${eventId}`, {
+    fetch(`${STRAPI_URL}hd2025-events?filters[id][$eq]=${eventId}`, {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${STRAPI_TOKEN}`,
@@ -40,7 +40,7 @@ function Calendar() {
       .then((dataEvent) => {
         setEventDetails(dataEvent.data[0]);
         fetch(
-          `${STRAPI_URL}hd2024-speakers?filters[hd_2024_event][id][$eq]=${eventId}`,
+          `${STRAPI_URL}hd2025-speakers?filters[hd_2025_event][id][$eq]=${eventId}`,
           {
             headers: {
               "Content-Type": "application/json",

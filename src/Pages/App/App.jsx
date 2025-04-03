@@ -112,7 +112,7 @@ function App() {
             <h6 className="text-xl">Aviso</h6>
             <p>
               Coordinación de Universidad Abierta y Educación Digital de la
-              UNAM. ©Todos los derechos reservados 2024. Hecho en México. Este
+              UNAM. ©Todos los derechos reservados 2025. Hecho en México. Este
               sitio puede ser reproducido con fines no lucrativos, siempre y
               cuando no se mutile, se cite la fuente completa y su dirección
               electrónica, de otra forma, se requiere permiso previo por escrito

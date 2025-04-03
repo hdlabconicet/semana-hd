@@ -22,14 +22,14 @@ function Proposal() {
       name: speaker.name,
       email: speaker.email,
       bio: speaker.bio,
-      hd_2024_event: eventId,
+      hd_2025_event: eventId,
     };
 
     fileSpeaker = {
       data: Object.assign(formSpeaker),
     };
 
-    fetch(`${STRAPI_URL}hd2024-speakers`, {
+    fetch(`${STRAPI_URL}hd2025-speakers`, {
       method: "post",
       body: JSON.stringify(fileSpeaker),
       headers: {
@@ -78,7 +78,7 @@ function Proposal() {
       data: Object.assign(formEvent),
     };
 
-    fetch(`${STRAPI_URL}hd2024-events`, {
+    fetch(`${STRAPI_URL}hd2025-events`, {
       method: "post",
       body: JSON.stringify(fileEvent),
       headers: {
