@@ -20,11 +20,11 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/semana-hd">
       <nav>
         <NavLink to="/">
           <img
-            src="/images/semanahd-logo.jpg"
+            src="public/images/semanahd-logo.jpg"
             alt="Semana de Humanidades Digitales"
             width={158}
           />
@@ -35,7 +35,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="/images/logo-unam.jpg"
+            src="public/images/logo-unam.jpg"
             alt="Universidad Nacional Autónoma de México"
             width={56}
           />
@@ -46,7 +46,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="/images/logo-cuaed-ver.jpg"
+            src="public/images/logo-cuaed-ver.jpg"
             alt="Coordinación de Universidad Abierta y Educación Digital"
             width={72}
           />
@@ -57,7 +57,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="/images/aahd.png"
+            src="public/images/aahd.png"
             alt="Asociación Argentina de Humanidades Digitales"
             width={60}
           />
@@ -68,7 +68,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="/images/rchd.png"
+            src="public/images/rchd.png"
             alt="Red Colombiana de Humanidades Digitales"
             width={78}
           />
@@ -79,7 +79,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="/images/rhd.png"
+            src="public/images/rhd.png"
             alt="Red de Humanidades Digitales"
             width={68}
           />
@@ -101,7 +101,7 @@ function App() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/bunam_mooc.svg"
+                  src="public/images/bunam_mooc.svg"
                   alt="B@UNAM & MOOC"
                   width={100}
                 />
