@@ -19,14 +19,8 @@ function Previous() {
             compartir tendencias actuales y fomentar el diálogo en Humanidades
             Digitales.
           </p>
-          <p className="my-12 previous-semanahd text-center">
-            <a href="https://ada.bunam.unam.mx:8091/previous-hd/#/semanahd-2022">Ver SemanaHD 2022</a><a href="https://ada.bunam.unam.mx:8091/previous-hd/#/semanahd-2023">Ver SemanaHD 2023</a>
-          </p>
-        </div>
-        <div className="xl:w-1/2 ">
-          <img src="images/semanahd-logo-high.png" alt="Ediciones anteriores" />
-        </div>
-      </div>
+          </div>
+          </div>
     </section>
   );
 }
