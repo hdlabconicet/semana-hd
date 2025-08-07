@@ -14,7 +14,6 @@ function Home() {
       <Invite />
       <Calendar />
       <Identity />
-      
       <LatamHD />
     </>
   );

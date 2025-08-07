@@ -8,12 +8,9 @@ import CalendarEvent from "../CalendarEvent/CalendarEvent";
 import NotFound from "../NotFound/NotFound";
 import "./App.css";
 import semanahdLogo from '../../../public/images/semanahd-logo.jpg';
-import logoUnam from '../../../public/images/logo-unam.jpg';
 import RHD from '../../../public/images/rhd.png';
-import logoCUAED from '../../../public/images/logo-cuaed-ver.jpg';
 import AAHD from '../../../public/images/aahd.png';
 import logoRCHD from '../../../public/images/rchd.png';
-import BUNAM from '../../../public/images/bunam_mooc.svg';
 
 
 
@@ -44,22 +41,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={logoUnam}
-            alt="Universidad Nacional Autónoma de México"
-            width={56}
-          />
         </a>
         <a
           href="https://cuaieed.unam.mx/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={logoCUAED}
-            alt="Coordinación de Universidad Abierta y Educación Digital"
-            width={72}
-          />
         </a>
         <a
           href="https://aahd.net.ar/"
@@ -110,11 +97,6 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={BUNAM}
-                  alt="B@UNAM & MOOC"
-                  width={100}
-                />
               </a>
             </p>
           </div>
