@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-import CalendarItem from "../../Components/CalendarItem/CalendarItem";
 import EventDetails from "../../Components/EventDetails/EventDetails";
 import "./Calendar.css";
 
@@ -61,6 +60,19 @@ function Calendar() {
     setShowDetails(false);
   }
 
+  const CalendarEmbed = () => {
+  return (
+    <div className="w-full h-full">
+      <iframe
+        title="Conference Calendar"
+        src="https://calendar.google.com/calendar/embed?src=f0ceda166a052f3855c949badf0b2423bdadebb064f9833d9707037ff8376b0f@group.calendar.google.com&dates=20250801/20250830&mode=AGENDA&showTitle=0&showNav=0&showDate=0&showTabs=0"
+        className="w-full h-full border-0"
+        style={{ minHeight: "600px" }}
+      ></iframe>
+    </div>
+  );
+}
+
   return (
     <>
       {showDetails && (
@@ -71,7 +83,7 @@ function Calendar() {
         />
       )}
       <section className="section-hd" id="calendar">
-        <div className="w-11/12 lg:w-3/4">
+        <div className="w-full max-w-screen-xl mx-auto">
           <header>
             <h1>Calendario</h1>
             <NavLink to="/" className="index-link bg-red_hd">
@@ -99,18 +111,11 @@ function Calendar() {
               .
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-4 mt-12">
-            {items !== null &&
-              items.data.map((item) => {
-                return (
-                  <CalendarItem
-                    event={item}
-                    key={item.id}
-                    onEventClick={handleEventClick}
-                  />
-                );
-              })}
-          </div>
+           <div className="w-full mt-12">
+      <div className="w-full h-[600px]">
+        <CalendarEmbed />
+      </div>
+    </div>
         </div>
       </section>
     </>

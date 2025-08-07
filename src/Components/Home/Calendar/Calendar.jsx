@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 import CalendarItem from "../../CalendarItem/CalendarItem";
 import "./Calendar.css";
 
+// Handles clicking on a calendar event
 const handleEventDetailsClick = (eventId) => {
-  window.location.href = '/calendar/' + eventId;
+  window.location.href = "/calendar/" + eventId;
 };
 
 const emptyCalendar = () => {
@@ -33,11 +34,21 @@ const emptyItem = () => {
 
 const buildCalendar = (items) => {
   if (items === null || !items.data || !items.data.length) {
-    return <>{emptyCalendar()}{emptyItem()}{emptyItem()}</>;
+    return (
+      <>
+        {emptyCalendar()}
+        {emptyItem()}
+        {emptyItem()}
+      </>
+    );
   } else {
-    const calendarItemsLoad = items.data.map((item) => {
-      return <CalendarItem event={item} key={item.id} onEventClick={handleEventDetailsClick} />;
-    });
+    const calendarItemsLoad = items.data.map((item) => (
+      <CalendarItem
+        event={item}
+        key={item.id}
+        onEventClick={handleEventDetailsClick}
+      />
+    ));
 
     for (let i = items.data.length; i < 3; i++) {
       calendarItemsLoad.push(emptyItem());
@@ -45,6 +56,19 @@ const buildCalendar = (items) => {
 
     return calendarItemsLoad;
   }
+};
+
+const CalendarEmbed = () => {
+  return (
+    <div className="w-full h-full">
+      <iframe
+        title="Conference Calendar"
+        src="https://calendar.google.com/calendar/embed?src=f0ceda166a052f3855c949badf0b2423bdadebb064f9833d9707037ff8376b0f@group.calendar.google.com&dates=20250801/20250830&mode=AGENDA&showTitle=0&showNav=0&showDate=0&showTabs=0"
+        className="w-full h-full border-0"
+        
+      ></iframe>
+    </div>
+  );
 };
 
 function Calendar() {
@@ -70,38 +94,58 @@ function Calendar() {
   }, []);
 
   return (
-    <section className="section-hd calendar-section">
-      <div className="p-4 xl:p-0 lg:w-2/3 xl:w-11/12 2xl:w-10/12 xl:flex xl:flex-row xl:gap-6">
-        <div className="xl:w-1/2">
-          <h2>Calendario</h2>
-          <p>
-            El calendario se actualiza constantemente, las fechas y horas de los
-            eventos pueden cambiar y se agregan nuevos eventos regularmente.
-          </p>
-          <p>
-            Estás visualizando los últimos tres eventos publicados, para
-            visualizar todos los eventos da clic en Ver calendario.
-          </p>
-          <p>
-            Los eventos se visualizan en la zona horaria de tu navegador. Si
-            necesitas ver la zona horaria de tu navegador o comparar con otra
-            zona horaria puedes ir al sitio{" "}
-            <a
-              href="https://time.is/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              time.is
-            </a>
-            .
-          </p>
-        </div>
-        <div className="xl:w-1/2">
-          <div className="last-events">{buildCalendar(items)}</div>
-          <div className="text-right">
-            <NavLink to="/calendar" className="calendar-link bg-red_hd">
-              Ver calendario
-            </NavLink>
+    <section className="section-hd calendar-section w-full">
+      <div className="p-4 xl:p-6 w-full">
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Left column: existing calendar info */}
+          <div className="lg:w-1/2 w-full">
+            <div className="w-full">
+              <h2>Calendario</h2>
+              <p>
+                El calendario se actualiza constantemente, las fechas y horas de los
+                eventos pueden cambiar y se agregan nuevos eventos regularmente.
+              </p>
+              <p>
+                Los eventos se visualizan en la zona horaria de tu navegador. Si
+                necesitas ver la zona horaria de tu navegador o comparar con otra
+                zona horaria puedes ir al sitio{" "}
+                <a
+                  href="https://time.is/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-600 hover:text-blue-800"
+                >
+                  time.is
+                </a>
+                .
+              </p>
+              <p>
+                Para registrar tu evento por favor continúa al formulario de registro.
+              </p>
+
+              <div className="mt-6 flex flex-wrap justify-center gap-4">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfM8svBX3MmvsS12hBMlJxT_Nf6JUdM0UZSHzAfnB6T2jSTTg/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="calendar-link bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition"
+                >
+                  Formulario de registro
+                </a>
+
+                <NavLink
+                  to="/calendar"
+                  className="calendar-link bg-red_hd text-white font-bold py-3 px-6 rounded-lg text-lg transition"
+                >
+                  Ver calendario
+                </NavLink>
+              </div>
+            </div>
+          </div>
+
+          {/* Right column: embedded iframe calendar */}
+          <div className="lg:w-1/2 w-full">
+            <CalendarEmbed />
           </div>
         </div>
       </div>

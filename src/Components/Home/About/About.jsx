@@ -35,9 +35,6 @@ const About = () => {
             <h3>¿Qué me ofrece la SemanaHD?</h3>
             <p>Te ofrecemos nuestra plataforma donde se verá tu evento desde un calendario con fecha, hora y todos los datos que aportes. Te ofrecemos dar difusión a tu evento a través de las redes sociales de la RedHD, la AAHD y la RedCo. También te ofrecemos ser parte del proyecto SemanaHD, ya que todos los calendarios se guardan en la sección Archivo para conservar un registro histórico de participación.</p>
           </div>
-          <div className="question text-right">
-            <p>Si tienes más preguntas te invitamos a unirte a nuestro canal de <a href="https://t.me/+k6eJFMu9xTxiMTZh" target="_blank" rel="noopener noreferrer" className="telegram-link">Telegram <img src="images/telegram.png" alt="Telegram" width={24} className="inline align-bottom" /></a></p>
-          </div>
         </div>
       </div>
     </section>
