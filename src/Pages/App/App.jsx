@@ -7,10 +7,10 @@ import Calendar from "../Calendar/Calendar";
 import CalendarEvent from "../CalendarEvent/CalendarEvent";
 import NotFound from "../NotFound/NotFound";
 import "./App.css";
-import semanahdLogo from '../../../public/images/semanahd-logo.jpg';
-import RHD from '../../../public/images/rhd.png';
-import AAHD from '../../../public/images/aahd.png';
-import logoRCHD from '../../../public/images/rchd.png';
+import semanahdLogo from '/images/semanahd-logo.jpg';
+import RHD from '/images/rhd.png';
+import AAHD from '/images/aahd.png';
+import logoRCHD from '/images/rchd.png';
 
 
 

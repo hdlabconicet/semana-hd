@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="lg:flex lg:flex-row justify-center items-center w-11/12 xl:w-10/12 py-10">
         <div className="lg:w-1/2 p-4">
           <img
-            src="images/semanahd.png"
+            src={`${import.meta.env.BASE_URL}images/semanahd.png`}
             alt="Semana de Humanidades Digitales"
             width={1200}
             className="block"

@@ -17,7 +17,7 @@ const Invite = () => {
                     {iFrame("https://www.youtube.com/embed/YKwbg-kyTy4")}
                 </div>
                 <div className="content-center">
-                    <img src="images/semanahd.png" alt="Semana de Humanidades Digitales" />
+                    <img src={`${import.meta.env.BASE_URL}images/semanahd.png`} alt="Semana de Humanidades Digitales" />
                 </div>
                 {/*<div>
                     {iFrame("https://www.youtube.com/embed/aA1Sqr85PTE")}
