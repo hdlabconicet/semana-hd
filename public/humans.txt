@@ -1,23 +1,18 @@
 ﻿/* TEAM */
-    Director: Guadalupe Vadillo
-    Contact: guadalupe_vadillo [at] cuaed.unam.mx
-    From: Mexico City, Mexico
+    Director: Semanahd
+    Contact: semanahd
+   
+    
 
-    Subdirector: Jackeline Bucio
-    Contact: jackeline_bucio [at] cuaed.unam.mx
-    Twitter: txtdgtl
-    From: Mexico City, Mexico
+    Web developer: Julian Spinelli 
 
-    Manager: Omar Terrazas
-    Contact: omar_terrazas [at] cuaed.unam.mx
-    Twitter: terrazasrazo
-    From: Mexico City, Mexico
-
-    Web developer: Omar Terrazas
-
-    Designer: Omar Terrazas
+    
 
 /* THANKS */
+    Developer 2022-2024: Omar Terrazas
+
+    HD LAB CONICET (Argentina)
+
     Asociación Argentina de Humanidades Digitales: Gimena del Rio Riande
     Twitter: gimenadelr
     From: Ciudad Autónoma Buenos Aires, Argentina
