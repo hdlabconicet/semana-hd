@@ -1,6 +1,6 @@
 # Semana de Humanidades Digitales
 
-Rediseño del sitio SemanaHD para su emisión 2025.
+Rediseño del sitio SemanaHD para su emisión 2025 y próximas iteraciones.
 
 ## Instalación
 
