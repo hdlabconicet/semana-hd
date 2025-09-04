@@ -17,12 +17,12 @@ const About = () => {
           <div className="question">
             <h3>¿Cómo puedo participar en la Semana HD?</h3>
             <p>
-            Para participar de la SemanaHD comparte los datos de tu evento a través del botón. Asegúrate de compartir toda la información necesaria (hora, día, enlace de acceso) para que cada persona interesada pueda verlo en línea o ingresar a una sesión en plataforma de videoconferencia. Todos los horarios se muestran en tu hora local y se mostrarán a los asistentes en sus respectivas horas locales, no tienes que hacer ningún cálculo.
+            Para participar de la SemanaHD comparte los datos de tu evento a través del botón del [Formulario de registro](https://docs.google.com/forms/d/e/1FAIpQLSe4l5oyPOSRIXmgQhcLLvb9eaiStEyQiuCR5yKFsrxstf02Rw/viewform). Asegúrate de compartir toda la información necesaria (hora, día, enlace de acceso) para que cada persona interesada pueda verlo en línea o ingresar a una sesión en plataforma de videoconferencia. Todos los horarios se muestran en tu hora local y se mostrarán a los asistentes en sus respectivas horas locales, no tienes que hacer ningún cálculo.
             </p>
           </div>
           <div className="question">
             <h3>¿Cuándo es la fecha límite para enviar la propuesta?</h3>
-            <p>El 15 de mayo de 2025.</p>
+            <p>El 19 de octubre de 2025.</p>
             {/*<p className="mt-4"><NavLink to="/proposal" className="proposal">Propón un evento desde aquí</NavLink></p>*/}
           </div>
         </div>
@@ -33,7 +33,7 @@ const About = () => {
           </div>
           <div className="question">
             <h3>¿Qué me ofrece la SemanaHD?</h3>
-            <p>Te ofrecemos nuestra plataforma donde se verá tu evento desde un calendario con fecha, hora y todos los datos que aportes. Te ofrecemos dar difusión a tu evento a través de las redes sociales de la RedHD, la AAHD y la RedCo. También te ofrecemos ser parte del proyecto SemanaHD, ya que todos los calendarios se guardan en la sección Archivo para conservar un registro histórico de participación.</p>
+            <p>Te ofrecemos nuestra plataforma donde se verá tu evento desde un calendario con fecha, hora y todos los datos que aportes. Te ofrecemos dar difusión a tu evento a través de las redes sociales de la RedHD, la AAHD y la RedCo. También te ofrecemos ser parte del proyecto SemanaHD, sumándote a nuestro canal de [Telegram](https://t.me/+k6eJFMu9xTxiMTZh).</p>
           </div>
         </div>
       </div>
