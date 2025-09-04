@@ -4,7 +4,7 @@ Rediseño del sitio SemanaHD para su emisión 2025 y próximas iteraciones.
 
 ## Instalación
 
-La creación del proyecto se realizó por a través de la herramienta [Vite](https://vitejs.dev/) que requiere (Node.js)[https://nodejs.org/] versión [18+](https://nodejs.org/dist/latest-v18.x/). [20+](https://nodejs.org/dist/latest-v20.x/). Sin embargo, algunas plantillas requieren una versión superior de Node.js para funcionar; actualice si su administrador de paquetes lo advierte.
+La creación del proyecto se realizó por a través de la herramienta [Vite](https://vitejs.dev/) que requiere [Node.js](https://nodejs.org/) versión [18+](https://nodejs.org/dist/latest-v18.x/). [20+](https://nodejs.org/dist/latest-v20.x/). Sin embargo, algunas plantillas requieren una versión superior de Node.js para funcionar; actualice si su administrador de paquetes lo advierte.
 
 Antes de instalar el proyecto es necesario instalar Node.js por medio de su [guía de instalación](https://nodejs.org/en/download) de acuerdo con su sistema operativo.
 
