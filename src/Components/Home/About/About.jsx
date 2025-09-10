@@ -17,7 +17,11 @@ const About = () => {
           <div className="question">
             <h3>¿Cómo puedo participar en la Semana HD?</h3>
             <p>
+<<<<<<< HEAD
             Para participar de la SemanaHD comparte los datos de tu evento a través del botón del <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4l5oyPOSRIXmgQhcLLvb9eaiStEyQiuCR5yKFsrxstf02Rw/viewform">Formulario de registro</a>. Asegúrate de compartir toda la información necesaria (hora, día, enlace de acceso) para que cada persona interesada pueda verlo en línea o ingresar a una sesión en plataforma de videoconferencia. Todos los horarios se muestran en tu hora local y se mostrarán a los asistentes en sus respectivas horas locales, no tienes que hacer ningún cálculo.
+=======
+            Para participar de la SemanaHD comparte los datos de tu evento a través del botón del Formulario de registro. Asegúrate de compartir toda la información necesaria (hora, día, enlace de acceso) para que cada persona interesada pueda verlo en línea o ingresar a una sesión en plataforma de videoconferencia. Todos los horarios se muestran en tu hora local y se mostrarán a los asistentes en sus respectivas horas locales, no tienes que hacer ningún cálculo.
+>>>>>>> 6cfb571d02c96c6f6b510945c5f553e76e35d40d
             </p>
           </div>
           <div className="question">
