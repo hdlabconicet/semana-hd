@@ -65,7 +65,7 @@ function Calendar() {
     <div className="w-full h-full">
       <iframe
         title="Conference Calendar"
-        src="https://calendar.google.com/calendar/embed?src=de60cbd1b84b03501bfd142f54a057ad36959bc4e864aa3fc2eda4a1985f9ee7@group.calendar.google.com&dates=20250801/20250830&mode=AGENDA&showTitle=0&showNav=0&showDate=0&showTabs=0"
+                src="https://calendar.google.com/calendar/embed?src=34f9966479f265ae96a646c7560a75f5a3ae2ba14b0ad5a238cbe28d40676388%40group.calendar.google.com&dates=20250801/20250830&mode=AGENDA&showTitle=0&showNav=0&showDate=0&showTabs=0"
         className="w-full h-full border-0"
         style={{ minHeight: "600px" }}
       ></iframe>
